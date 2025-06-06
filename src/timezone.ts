@@ -1,0 +1,32 @@
+// timeZones.ts
+const timeZones: Record<string, { name: string; offset: number }> = {
+    UTC: { name: "Coordinated Universal Time", offset: 0 },
+    GMT: { name: "Greenwich Mean Time", offset: 0 },
+    EST: { name: "Eastern Standard Time", offset: -5 },
+    EDT: { name: "Eastern Daylight Time", offset: -4 },
+    CST: { name: "Central Standard Time", offset: -6 },
+    CDT: { name: "Central Daylight Time", offset: -5 },
+    MST: { name: "Mountain Standard Time", offset: -7 },
+    MDT: { name: "Mountain Daylight Time", offset: -6 },
+    PST: { name: "Pacific Standard Time", offset: -8 },
+    PDT: { name: "Pacific Daylight Time", offset: -7 },
+    AST: { name: "Atlantic Standard Time", offset: -4 },
+    NST: { name: "Newfoundland Standard Time", offset: -3.5 },
+    BST: { name: "British Summer Time", offset: 1 },
+    CET: { name: "Central European Time", offset: 1 },
+    CEST: { name: "Central European Summer Time", offset: 2 },
+    EET: { name: "Eastern European Time", offset: 2 },
+    EEST: { name: "Eastern European Summer Time", offset: 3 },
+    IST: { name: "Indian Standard Time", offset: 5.5 },
+    AEST: { name: "Australian Eastern Standard Time", offset: 10 },
+    AEDT: { name: "Australian Eastern Daylight Time", offset: 11 },
+    NZST: { name: "New Zealand Standard Time", offset: 12 },
+    NZDT: { name: "New Zealand Daylight Time", offset: 13 },
+    JST: { name: "Japan Standard Time", offset: 9 },
+    KST: { name: "Korea Standard Time", offset: 9 },
+    SGT: { name: "Singapore Time", offset: 8 },
+    ART: { name: "Argentina Time", offset: -3 },
+    BRT: { name: "Brasília Time", offset: -3 },
+};
+
+export default timeZones;
